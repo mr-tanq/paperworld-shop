@@ -1,0 +1,9 @@
+{
+  "name": "paperworld-shop",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Digital Business Studio storefront (run by James, the PAPERWORLD shop Director).",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
