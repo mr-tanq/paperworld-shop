@@ -19,7 +19,7 @@ test('every product is complete, honest and correctly priced',()=>{
   assert.ok(Number.isFinite(p.price_eur)&&p.price_eur>=1&&p.price_eur<=99&&Math.round(p.price_eur*100)===p.price_eur*100,'price '+p.slug);
   assert.ok(['draft','soon','live'].includes(p.status),'status '+p.slug);
   assert.doesNotMatch(p.title+' '+p.summary+' '+(p.description||''),BANNED,'honest copy '+p.slug);
-  if(p.preview){assert.match(p.preview,/^\.\/assets\/previews\/[a-z0-9-]+\.(png|jpg|webp)$/);
+  if(p.preview){assert.match(p.preview,/^\.\/assets\/previews\/[a-z0-9-]+\.(png|jpg|webp|svg)$/);
    assert.ok(fs.existsSync(new URL('..'+p.preview.slice(1),import.meta.url)),'preview exists '+p.slug)}
   if(p.status==='live'){
    assert.match(p.payment_link||'',STRIPE,'live products need a Stripe payment link '+p.slug);
