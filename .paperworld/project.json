@@ -1,0 +1,27 @@
+{
+  "schema": "paperworld-project-v1",
+  "projectId": "shop",
+  "directorId": "shop-director",
+  "repository": "mr-tanq/paperworld-shop",
+  "allowedPaths": [
+    "products.json",
+    "assets/previews/",
+    "tests/",
+    "index.html",
+    "thanks.html",
+    "style.css",
+    "app.js",
+    "delivery.js"
+  ],
+  "protectedPaths": [
+    ".github/",
+    ".paperworld/",
+    "package.json",
+    "package-lock.json"
+  ],
+  "requiredTestIds": [
+    "catalog",
+    "storefront"
+  ],
+  "maxFiles": 10
+}
