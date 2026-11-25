@@ -13,7 +13,7 @@ This repository is the **public storefront** of the Digital Business Studio, run
 ## Structure
 - `products.json` — the catalogue. Each product: `slug`, `title` (≤80), `summary` (≤200),
   optional `description`, `price_eur` (1–99), `status` (`draft` | `soon` | `live`), `preview`
-  (`./assets/previews/<slug>.png|jpg|webp`), and when `live`: `payment_link`
+  (`./assets/previews/<slug>.svg|png|jpg|webp`), and when `live`: `payment_link`
   (`https://buy.stripe.com/...`) and `file_key` (the private file name, e.g. `weekly-planner.pdf`).
 - `index.html`, `style.css`, `app.js` — the shop page (renders `products.json`).
 - `thanks.html`, `delivery.js` — after payment: asks the shop's delivery service for a personal,
