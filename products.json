@@ -1,5 +1,16 @@
 {
   "shop": "Digital Business Studio",
   "currency": "EUR",
-  "products": []
+  "products": [
+    {
+      "slug": "teacher-weekly-planner-grades-attendance",
+      "title": "Teacher Weekly Planner with Grades and Attendance",
+      "summary": "Printable A4 PDF weekly planner for teachers: 36 weeks with sections for lessons, grades and attendance. Simple paper tracking, no spreadsheet formulas.",
+      "description": "A printable A4 PDF weekly planner for teachers, covering a 36-week school year. Each week has three sections: Lessons (plan what you teach each day), Grades (record scores and notes for quick reference) and Attendance (mark presence and absences). Print as many copies as you need for your class or your year. This is a static printable, not an editable spreadsheet: there are no automatic averages or formulas. Use it with a pen, a binder or a clipboard. Instant digital download after purchase.\n\nMade by Digital Business Studio with the help of AI tools; every product is approved by the shop owner before release.\n\nMade by Digital Business Studio with the help of AI tools; every product is approved by the shop owner before release.",
+      "price_eur": 4,
+      "status": "soon",
+      "preview": "./assets/previews/teacher-weekly-planner-grades-attendance.svg",
+      "file_key": "teacher-weekly-planner-grades-attendance.pdf"
+    }
+  ]
 }
