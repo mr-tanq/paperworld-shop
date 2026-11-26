@@ -11,6 +11,16 @@
       "status": "soon",
       "preview": "./assets/previews/teacher-weekly-planner-grades-attendance.svg",
       "file_key": "teacher-weekly-planner-grades-attendance.pdf"
+    },
+    {
+      "slug": "teacher-planner-2026-27-gradebook",
+      "title": "Teacher Planner 2026-27 with Gradebook",
+      "summary": "A printable A4 PDF weekly planner for teachers, with sections for lesson plans, a gradebook and weekly prep for the 2026-27 school year.",
+      "description": "A printable A4 PDF weekly planner for teachers covering the 2026-27 school year. Each week has three sections: Lesson Plans, Gradebook and Weekly Prep, so you can plan lessons, record scores and organise preparation in one place. Designed for classroom teachers of any grade or subject who want a simple paper system. Print at home or at a print shop and fill in by hand. No software, account or login is needed. This is a digital download; no physical item is shipped.\n\nMade by Digital Business Studio with the help of AI tools; every product is approved by the shop owner before release.\n\nMade by Digital Business Studio with the help of AI tools; every product is approved by the shop owner before release.",
+      "price_eur": 5,
+      "status": "soon",
+      "preview": "./assets/previews/teacher-planner-2026-27-gradebook.svg",
+      "file_key": "teacher-planner-2026-27-gradebook.pdf"
     }
   ]
 }
